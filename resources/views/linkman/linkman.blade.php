@@ -1,4 +1,4 @@
-,欢迎来到我的世界@extends('layouts.app')
+@extends('layouts.app')
 @section('title', 'layui后台大布局')
 @section('sidebar')
 	@parent

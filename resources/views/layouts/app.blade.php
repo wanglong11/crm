@@ -42,7 +42,7 @@
 			          <dd><a href="">安全设置</a></dd>
 			        </dl>
 			      </li>
-			      <li class="layui-nav-item"><a href="">退了</a></li>
+			      <li class="layui-nav-item"><a href="/crm/public/index.php/userLog">退了</a></li>
 			    </ul>
 			  </div>
 			  
@@ -53,11 +53,40 @@
 			        <li class="layui-nav-item layui-nav-itemed">
 			          <a class="" href="javascript:;">客户服务管理</a>
 			          <dl class="layui-nav-child">
-			            <dd><a href="/crm/public/service/index">列表一</a></dd>
-			            <dd><a href="/crm/public/client/lists">列表二</a></dd>
+			            <dd><a href="crm/public/index.php/service/index">列表一</a></dd>
+			            <dd><a href="crm/public/client/lists">列表二</a></dd>
 			          </dl>
 			        </li>
-
+                      <li class="layui-nav-item layui-nav-itemed">
+                          <a class="" href="javascript:;">商家管理</a>
+                          <dl class="layui-nav-child">
+                              <dd><a href="/crm/public/index.php/goods">商品添加</a></dd>
+                              <dd><a href="/crm/public/index.php/goodsList">商品展示</a></dd>
+							  <dd><a href="/crm/public/index.php/goodsAudit">商品审核</a></dd>
+							  <dd><a href="/crm/public/index.php/admin_goods_show_order">商品商家订单</a></dd>
+                          </dl>
+                      </li>
+					  <li class="layui-nav-item layui-nav-itemed">
+						  <a class="" href="javascript:;">商家满折活动</a>
+						  <dl class="layui-nav-child">
+							  <dd><a href="/crm/public/index.php/discount">添加满折商品</a></dd>
+							  <dd><a href="/crm/public/index.php/discountList">满折商品展示</a></dd>
+						  </dl>
+					  </li>
+					  <li class="layui-nav-item layui-nav-itemed">
+						  <a class="" href="javascript:;">商品属性管理</a>
+						  <dl class="layui-nav-child">
+							  <dd><a href="/crm/public/index.php/basicAdd">基本属性</a></dd>
+							  <dd><a href="/crm/public/index.php/saleAdd">销售属性</a></dd>
+						  </dl>
+					  </li>
+                      <li class="layui-nav-item layui-nav-itemed">
+                          <a class="" href="javascript:;">商品管理</a>
+                          <dl class="layui-nav-child">
+                              <dd><a href="/crm/public/index.php/goods2list">商品列表</a></dd>
+                              <dd><a href="/crm/public/index.php/goods2add">商品添加</a></dd>
+                          </dl>
+                      </li>
 			        <li class="layui-nav-item"><a href="">云市场</a></li>
 			        <li class="layui-nav-item"><a href="">发布商品</a></li>
 			      </ul>
